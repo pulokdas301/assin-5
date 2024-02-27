@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<body>
+    <!-- start header section -->
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li>
+                            <a>About</a>
+
+                        </li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-3xl">H-ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu text-2xl menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li>
+
+                        <a>About</a>
+                    </li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn text-2xl text-[#1DD100] bg-slate-50">Bus <img src="images/bus-icon.png" alt=""></a>
+            </div>
+        </div>
+
+    </header>
+    <main class="">
+        <div class="hero min-h-screen" style="background-image: url(../images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-2xl">
+                    <h1 class="mb-6 text-5xl font-bold">End-to-End Travel with</h1>
+                    <h2 class="mb-5 text-5xl font-bold text-[#1DD100]">P Paribahan</h2>
+                    <p class="mb-5">Our bus Servise is very fast.so you can Travel our bus any time..</p>
+                    <a href="ticket-section"><button id="ticket-section"
+                            class="btn text-2xl text-black bg-[#1DD100]">Buy
+                            Trickets
+                        </button></a>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <h2 class="text-center text-3xl mt-16 ">Best offers for you</h2>
+            <div class="flex col-end-2 justify-center gap-4 mt-8">
+                <div>
+                    <div class="card w-96 bg-yellow-500 text-primary-content">
+                        <div class="card-body grid grid-cols-2">
+                            <div class="pl-5">
+                                <h2 class="card-title text-3xl">15% OFF</h2>
+                                <h1 class="text-52 "> your next purchase</h1>
+                                <p>
+                                    Use by january
+                                </p>
+
+
+                            </div>
+                            <!--  <div class=" divide-gray-400 md:divide-y-8">
+                                 
+                            </div>  -->
+                            <div class="text-center divide-x divide-white divide-dashed ">
+                                <h1 class="text-4xl">NEW15
+                                </h1>
+                                <p>coupon code</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-[#F78C9C] text-primary-content">
+                        <div class="card-body grid grid-cols-2">
+                            <div class="pl-5">
+                                <h2 class="card-title text-3xl">20% OFF</h2>
+                                <h1 class="text-52 "> your next purchase</h1>
+                                <p>
+                                    Use by january
+                                </p>
+
+
+                            </div>
+                            <div class="text-center divide-x divide-white divide-dashed">
+                                <h1 class="text-4xl">Couple 20
+                                </h1>
+                                <p>coupon code</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-outline btn-success text-2xl ">See All Offers</button>
+            </div>
+
+        </div>
+        <section id="ticket-section" class="border mt-8 border-green-400 rounded-md text-black bg-slate-50">
+            <!-- main div  -->
+            <div class=" mt-8">
+                <!-- top div  -->
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold">P.H Paribahan</h1>
+                    <p>Bus traveling is the great travleing to the man's life. Our traveling is the best service</p>
+
+                    </h1>
+                </div>
+                <!-- card div  -->
+
+                <div class="ml-64">
+                    <div class="card max-w-6xl mt-9  bg-[#FFFFFF] text-primary-content">
+                        <div class="card-body grid grid-cols-2">
+                            <div>
+                                <div class="flex gap-4">
+                                    <div> <img src="images/bus-logo.png" alt=""></div>
+                                    <div class="">
+                                        <div class="flex">
+                                            <div class="">
+                                                <h1 class="text-2xl font-bold text-black">Greenline Paribahan</h1>
+                                                <p class="text-black">Coach-009-WEB ! AC_Business</p>
+                                            </div>
+
+                                            <div class="ml-16">
+                                                <button class="btn btn-neutral"><img src="images/seat-green.png"
+                                                        alt=""><span id="seats-left">8</span>Seats left</button>
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                                <!-- route -->
+                                <!-- route -->
+                                <div class="flex justify-between">
+                                    <h1 class=" text-black ">Route</h1>
+                                    <h1 class=" text-black">Dhaka - Sylhet</h1>
+
+                                </div>
+
+                                <hr class="" style="">
+
+
+                                <div class="flex justify-between ">
+                                    <h1 class=" text-black  ">Departure time</h1>
+                                    <h1 class=" text-black">9:00 PM</h1>
+
+                                </div>
+                                <hr>
+                                <div class="mt-5">
+                                    <button class="btn btn-active bg-[#FFFFFF]">Boarding Point-Laxmipur</button>
+                                    <button class="btn btn-active bg-[#FFFFFF]">Dropping Point-Bogura</button>
+                                    <button class="btn btn-active bg-[#FFFFFF]">Est.Time-11 Hour</button>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="text-center divide-x divide-white divide-dashed">
+
+                                <img src="images/fare.png" class="ml-60 mt-16">
+                                <h1 class="text-4xl text-black"> <span class="seat-pric " id="seat-price">550
+                                    </span>Taka
+                                </h1>
+                                <p>per seat</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ml-60 mt-24">
+                    <div class="flex ">
+
+                        <!-- bottom main  -->
+                        <div>
+                            <!-- left div  -->
+                            <h1 class="text-2xl">Select Your Seat</h1>
+                            <hr>
+                            <div class="flex gap-64 ">
+                                <div class="flex"><img src="images/car.png" alt="">
+                                    <p>Available</p>
+                                </div>
+                                <div class="">
+                                    <div class="flex "><img src="images/seat-green-filled.png" alt="">
+                                        <p class="text-[#1DD100]">Selected</p>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+
+                            <div>
+                                <hr>
+                                <div class="text-end">
+                                    <button class="btn bg-white mt-5"><img src="images/wheel.png" alt=""></button>
+                                </div>
+
+                                <div class="grid grid-cols-5 gap-4 mt-10">
+
+                                    <div class="text-center">A</div>
+
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">A1</button>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">A2</button>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">A3</button>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">A4</button>
+                                    <div class="text-center">B</div>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">B1</button>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">B2</button>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">B3</button>
+                                    <button id="selected" onclick="" class="add-btn btn bg-[#FFFFFF]">B4</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- right div  -->
+                        <div class="ml-10 pl-24">
+                            <h1 class="text-2xl">Select Your Seat</h1>
+                            <div class="bg-slate-300 p-5 ">
+                                <!-- <table class="text-center ml-4">
+                                    <thead>
+                                        <tr class="">
+
+                                            <th class="p-3 text-2xl seat">Seat<span id="seat-up">0</span></th>
+                                            <th class="p-3 text-2xl class-name">Class</th>
+                                            <th class="p-3 text-2xl price">Price</th>
+                                        </tr>
+                                    </thead> -->
+                                <div class="flex text-2xl justify-between">
+                                    <div class="Seat">seat <span id="seat-Count">0</span></div>
+                                    <div class="className">Class</div>
+                                    <div class="price">Price</div>
+                                </div>
+
+                                <div id="selected-players-container">
+
+                                </div>
+                                <hr>
+                                <!-- </table> -->
+                                <div selected-players-container></div>
+                                <hr>
+                                <div class="flex justify-between">
+                                    <h3> Total cost </h3>
+                                    <h3>BDT <span id="total-cost">0</span></h3>
+                                </div>
+                                <hr>
+
+                                <div class="coupon-code mt-3">
+                                    <input type="text" id="coupon-code" placeholder="coupon code"
+                                        class="input input-bordered input-primary max-w-xs" />
+
+                                    <button onclick="updateGrandValue('apply-btn')"
+                                        class="btn bg-[#1DD100] -ml-2">Apply</button>
+
+                                </div>
+                                <hr>
+                                <div class="flex justify-between">
+                                    <h3> Grand Total </h3>
+                                    <h3>BDT <span id="grand-cost">0</span></h3>
+                                </div>
+
+                            </div>
+                            <div class="mt-6">
+                                <h1 class="text-2xl">Passenger Name*</h1>
+                                <label class="input mt-4 input-bordered flex items-center text-black gap-2">
+
+
+                                    <input type="text" class="grow" placeholder="Username" />
+                                </label>
+                                <h1 class="mt-5 text-2xl">Phone Number*</h1>
+                                <label class="input mt-5  flex  ">
+
+                                    <input type="number" class="grow text-black" placeholder="Phone number" />
+                                </label>
+                                <h1 class="mt-5 text-2xl">Email ID</h1>
+                                <label class="input mt-5 input-bordered flex items-center gap-2">
+
+                                    <input type="text" class="grow text-black" placeholder="Email id" />
+                                </label>
+                                <!-- You can open the modal using ID.showModal() method -->
+                                <button class="btn w-full bg-[#1DD100] mt-5"
+                                    onclick="my_modal_4.showModal()">Next</button>
+                                <dialog id="my_modal_4" class="modal">
+                                    <div class="modal-box text-center w-11/12 max-w-5xl">
+                                        <img src="images/success.png" class="ml-96 pl-16" alt="">
+                                        <h3 class="font-bold text-lg text-[#1dd]">SUCCES</h3>
+                                        <p class="py-4">Thank you for Booking Our Bus Seats.
+
+                                        </p>
+                                        <div class="modal-action">
+                                            <form method="dialog">
+                                                <!-- if there is a button, it will close the modal -->
+                                                <button class="btn w-52 rounded-md btn-success mr-96">Continue</button>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </dialog>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer class="footer p-10 bg-black text-white mt-5">
+        <aside>
+            <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                clip-rule="evenodd" class="fill-current">
+                <path
+                    d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
+                </path>
+            </svg>
+            <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+        </aside>
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+
+
+    </script>
+
+</body>
+
+</html>
